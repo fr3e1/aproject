@@ -1,9 +1,10 @@
-#!/bin/bash
+#/bin/bash
 
 remtask() {
-if [ -e tasks.txt ]; then
 clear
+if [ -e tasks.txt ]; then
 	rm history
+	echo "done"
 else
 	echo  "save file does not exist, please try again"
 fi
@@ -12,7 +13,7 @@ fi
 clear
 echo 
 while true; do 
-	clear
+
 	echo "You have selected the basic calculator program!"
 	echo "enter a choice:"
 	echo "[1] - continue to program"
@@ -28,4 +29,3 @@ while true; do
 		0) echo "Exiting..."; exit 0 ;;
 	esac
 done
-	

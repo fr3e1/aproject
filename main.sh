@@ -1,13 +1,6 @@
 b
 #/bin/bash
 
-select-menu() {
-	echo "select an option:"
-	echo "[1]"
-	echo "[2]"
-	echo "[3]"
-}
-
 selectPrograms() {
 	echo "type out what program you wish to use:"
 	echo
@@ -59,12 +52,12 @@ while true; do
 	echo
 	echo "select an option:"
 	echo "[1] - select program(s)"
-	echo "[2] - create a program"
+	#echo "[2] - create a program"
 	echo
 	echo "[0] - exit"
 	read -p ">" choice2
 	case $choice2 in
-		1)selectProgram ;;
+		1)selectPrograms ;;
 		2)createProgram ;;
 		0) echo "Exiting..."; exit 0 ;;
 	esac
