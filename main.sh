@@ -51,7 +51,7 @@ while true; do
 	echo "FR3E'S AP COMP SCI 20-1 PROJECT" 
 	echo
 	echo "select an option:"
-	echo "[1] - select program(s)"
+	echo "[1] - select program"
 	#echo "[2] - create a program"
 	echo
 	echo "[0] - exit"
