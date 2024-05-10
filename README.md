@@ -5,7 +5,15 @@ you must have bash enabled or have a linux machine/vm
 
 how to run:
 
-run main.sh 
+(assuming youre in the home dir) 
+
+change your directory into the aproject dir
+
+```
+cd aproject
+```
+
+then run main.sh 
 ```
 ./main.sh
 ```
