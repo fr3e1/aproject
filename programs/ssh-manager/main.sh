@@ -3,7 +3,7 @@
 clear
 declare -a list
 if [ -e programs/ssh-manager/list.txt ]; then
-	echo "saved list exists, coninuing"
+	echo "saved list exists, continuing"
 
 else
 	echo "saved list does not exist in directory, creating.."
